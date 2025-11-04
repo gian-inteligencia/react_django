@@ -1,0 +1,16 @@
+# Arquivo: frontend_react/.gitignore
+
+# Dependências (o maior)
+node_modules/
+
+# Código de produção (o que é gerado ao rodar "npm run build")
+build/
+
+# Logs de erro do NPM
+npm-debug.log*
+
+# Arquivos de segredos do React (MUITO IMPORTANTE)
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

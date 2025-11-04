@@ -1,0 +1,18 @@
+# Arquivo: backend_django/.gitignore
+
+# Pastas de ambiente e dependências
+venv/
+
+# Arquivos de segredos (MUITO IMPORTANTE)
+config.py
+backend_api/config.py
+
+# Banco de dados de teste (MUITO IMPORTANTE)
+db.sqlite3
+
+# Arquivos de cache do Python
+__pycache__
+*.pyc
+
+# Logs
+*.log
